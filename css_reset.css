@@ -41,3 +41,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* --------------挑選指南-活動穿搭----潛水穿搭----------------- */
+/* ---------------------連身熱賣款↓------------------- */
+
+.scroll{
+	height: 500px;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(./pic/scroll.jpg);
+	vertical-align: baseline;
+	background-position: center center;
+	/* background-size: 1440px 600px; */
+	position: relative;
+}
+.scroll p{
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	transform: translateX(-50%);
+	
+
+}
+p{
+	font-size: 30px;
+	
+}
+/* ---------------------連身熱賣款↓------------------- */
