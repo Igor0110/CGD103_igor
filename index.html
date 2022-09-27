@@ -42,7 +42,7 @@
             display: none;
         }
 
-/* benner共用 */
+/* benner共用↓ */
         .benner .pic img{
             vertical-align: top;
             width: 100%;
@@ -51,7 +51,7 @@
             position: relative;
             z-index: 0;
         }
-        .benner .icon-newshop{
+        .benner a{
             background-color: #E3CA95;
             width: fit-content;
             border-radius: 5px;
@@ -60,9 +60,14 @@
             position: absolute;
             top:50%;
             left: 50%;
+            text-decoration: none;
+            color: #000;
+            font-size: 40px;
+            text-align: center;
+            transform: translateX(-50%);
         }
 
-        
+/* benner共用↑ */
 
 
 
@@ -159,6 +164,8 @@
             }
         }
         
+
+
     </style>
 </head>
 <body>
@@ -199,7 +206,7 @@
             <img src="./pic/benner/banner.png" alt="benner">
         </div>
         <div class="icon-newshop">
-            新品上市
+            <a href="#">新品上市</a>
         </div>
     </div>
 
@@ -272,10 +279,37 @@
         </div>
     </div>
 
+
+
     <div class="home-onepeice">
         <h2>選購泳衣 - <span>連身熱賣款</span></h2>
         <div class="scroll">
             <p>Platax  法式馬甲透膚連身款</p>
+        </div>
+
+        <div class="home-onepieice-img-group">
+            <figure class="main-img">
+                <img src="./pic/Berries2.png" alt="">
+            </figure>
+            <figure class="main-img">
+                <figcaption>Flamingo 深 V 美背連身泳裝</figcaption>
+                <img src="./pic/Berries1.png" alt="">
+            </figure>
+            <figure class="img-group">
+                <div class="img">
+                    <img src="./pic/Berries3.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="./pic/Berries4.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="./pic/Berries5.png" alt="">
+                </div>
+                <div>
+                    <p class="buynow">立即購買</p>
+                </div>
+            </figure>
+            
         </div>
     </div>
 
@@ -314,6 +348,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi cumque reiciendis! Repudiandae ipsum fuga quas animi, exercitationem dolore, expedita eaque quos minima unde atque, mollitia provident ipsam explicabo. Reprehenderit dolore corrupti nam quia omnis velit consequatur, tempore quo culpa eligendi impedit, ratione quae ab accusantium ipsa fuga exercitationem adipisci?</p>
 
 
+<!-- 輪播圖 -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./javascrip.js"> </script>
