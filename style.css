@@ -1,10 +1,117 @@
 
-    *{
-        padding: 0;
-        margin: 0;
-        background-color: rgb(245, 28, 28);
+
+
+/* -----輪播圖---- */  
+    html, body {
+      position: relative;
+      height: 100%;
     }
-    h1{
-        font-size: 50px;
-        color: #333;
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
     }
+
+    .swiper {
+      width: 60%;
+      height: 60%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .selling h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 48px;
+        color: brown ;
+        border-bottom: 2px  sandybrown dashed;
+        margin-bottom: 5px;
+    }
+    .selling .more-commodity{
+      font-size: 24px;
+      color: #fff;
+      font-weight: 600;
+      background-color: 7B7B7B;
+    }
+
+/* -----輪播圖---↑- */ 
+
+/* 挑選指南-活動穿搭 --潛水穿搭 */
+    .home-guide-diving h2{
+      text-align: center;
+      font-weight: 600;
+      font-size: 30px;
+      color: brown ;
+      border-bottom: 2px  sandybrown dashed;
+      margin-bottom: 5px;
+    }
+    .home-guide-diving span{
+      font-weight: 600;
+      font-size: 38px;
+    }
+    .home-guide-diving{
+      max-width: 1200px;
+      margin: auto;
+    }
+    figure img{
+      width: 100%;
+    }
+    .diving-main-card{
+      width: 1000px;
+    }
+    .diving-main{
+      display: flex;
+    }
+    .diving-main text{
+      width: 200px;
+    }
+    .diving-outfit-card-group{
+      display: flex;
+      gap: 10px;
+      
+    } 
+    .diving-outfit-card img{
+      width: 400px;
+      height: 300px;
+    }
+    .home-diving-content figcaption{
+      background-color: rgb(235, 234, 244);
+      opacity: 0.5;
+      color: #642424;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+
+
+
+    
