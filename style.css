@@ -137,9 +137,10 @@
 }
 
 
-.main-img{
+.home-onepieice-img-group .main-img img{
   width: 500px;
-  height: 420px;
+  height: 700px;
+  background-color: antiquewhite;
 }
 .home-onepieice-img-group{
   display: flex;
@@ -153,23 +154,57 @@
   justify-content: space-between;
   /* 想要讓立即購買往下 */
 }
-.home-onepeice .img-group .img img{
+.home-onepeice .img-group img {
   object-fit: cover;
   width: 160px;
   height: 160px;
-  background-color: aqua;
   object-position:center center;
-  
-  
+}
+.home-onepieice-img-group figcaption{
+  color: #642424;
+  border-bottom: solid;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0px;
+  width: fit-content;
+}
+.img-group p{
+  font-size: 20px;
+  background-color: #aaa;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 0px;
 }
 
-p{
-	font-size: 30px;
-	
-}
+
 /* ---------------------連身熱賣款↑------------------- */
 
-
-
+/* ----------------挑選指南-大胸女孩友善款----- */
+.home-guide-XLrecommend{
+  min-width: 1200px;
+}
+.parrot{
+  display: flex;
+}
+.parrot img{
+  width: 500px;
+  height: 700px;
+}
+.parrot-content{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.parrot-content img{
+ height: 300px;
+ width: 200px;
+ text-align: center ;
+}
+.parrot-ootd{
+  width: 200px;
+  height: 400px;
+}
 
     
