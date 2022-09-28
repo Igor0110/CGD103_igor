@@ -91,9 +91,26 @@
     .diving-main{
       display: flex;
     }
-    .diving-main text{
-      width: 200px;
+    .diving-main .text{
+      width: 500px;
+      text-align: left;
+      margin: auto;
+      font-size: 22px;
+      padding: 5px 0px;
+      line-height: 1.4;
     }
+    .diving-main .text h3{
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+    .diving-main .text span{
+      font-weight: 600;
+      color: chocolate;
+      text-align: center;
+      
+    }
+    
     .diving-outfit-card-group{
       display: flex;
       gap: 10px;
@@ -152,7 +169,7 @@
   flex-direction: column;
   gap: 10px;
   justify-content: space-between;
-  /* 想要讓立即購買往下 */
+  
 }
 .home-onepeice .img-group img {
   object-fit: cover;
@@ -174,7 +191,8 @@
   color: #fff;
   border-radius: 10px;
   text-align: center;
-  padding: 5px 0px;
+  padding: 10px 0px;
+  margin-bottom: 10px;
 }
 
 
@@ -186,25 +204,29 @@
 }
 .parrot{
   display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 .parrot img{
-  width: 500px;
-  height: 700px;
+  width: 700px;
+  height: 900px;
 }
 .parrot-content{
-  width: 800px;
+  width: 500px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   
 }
 .parrot-content img{
- height: 300px;
- width: 200px;
+ height: 350px;
+ width: 250px;
  text-align: center ;
+
 }
 .parrot-ootd{
   width: 200px;
   height: 400px;
+  display: flex;
+  gap: 10px;
 }
-
-    
