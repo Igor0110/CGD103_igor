@@ -152,11 +152,11 @@
   max-width: 1200px;
   margin: auto;
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-image: url(./pic/scroll.jpg);
+	background-attachment: fixed;
+	background-image: url(./pic/scrollpic.jpg);
 	vertical-align: baseline;
 	background-position: center bottom;
-	background-size: 1440px 600px;
+	background-size: 1200px 698px;
 	position: relative;
   box-shadow: 10px 10px 40px rgb(56, 50, 50) inset;
 }
