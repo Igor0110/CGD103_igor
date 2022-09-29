@@ -277,5 +277,9 @@
 .statement{
   text-align: center;
 }
+.footer-icon{
+  width: 400px;
+  position: relative;
+}
 
 
