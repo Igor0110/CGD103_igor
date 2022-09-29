@@ -142,11 +142,13 @@
     }
 
 /* --------------挑選指南-活動穿搭----潛水穿搭-----↑--- */
-/* ---------------------連身熱賣款↓------------------- */
+/* ---------------------連身熱賣款↓----------------- */
+
 .home-onepeice{
   min-width: 1200px;
 
 }
+
 .scroll{
 	height: 400px;
   max-width: 1200px;
@@ -165,7 +167,7 @@
 	top: 40%;
 	left: 50%;
 	color: #fff;
-	font-size: 22px;
+	font-size: 19px;
 	position: absolute;
 	transform: translateX(-50%);
 }
