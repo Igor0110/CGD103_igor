@@ -5,194 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Wode.M</title>
+    <link rel="stylesheet" href="./css_reset.css">  
+
     <link rel="icon" href="./pic/favicon.ico" type="image/x-icon" />
     <!-- 網頁標題欄title加入icon圖標 -->
     <link rel="shortcut icon" href="./pic/favicon.ico" type="image/x-icon">
-    
-    <link rel="stylesheet" href="./css_reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./all.css">
+    <!-- 字形設定 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <!-- <link rel="stylesheet" href="./pic/favicon.ico"> -->
     <script src="https://kit.fontawesome.com/aef7372e6a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./footer-icon.css"> 
-    <style>
-/* 首頁-選單共用 */
-        .header{
-            display: flex;
-            justify-content: space-between;
-            /* padding: 10px 20px  10px 20px; */
-            background-color: #8C2121;
-            position: relative;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            /* margin-bottom: 20px; */
-            z-index: 20;
-        }
-        .logo img{
-            vertical-align: top;
-            padding: 10px 20px;
-
-        }
-        .main-nav{
-            padding-right: 20px;
-        }
-
-        .main-nav a{
-            display: block;
-            padding: 10px;
-            text-decoration: none;
-            color: #fff;
-            font-weight: 600;
-            top: 50%;
-            align-self: center;
-            align-items ;
-            
-        }
-        #menu-switch{
-            display: none;
-        }
-        .main-nav a img{
-            width: 30px;
-            height: 30px;
-        }
-
-/* benner共用↓ */
-        .benner .pic img{
-            vertical-align: top;
-            width: 100%;
-        }
-        .benner{
-            margin-top: 73px ;
-            position: relative;
-            z-index: 0;
-        }
-        .benner a{
-            background-color: #E3CA95;
-            width: fit-content;
-            border-radius: 5px;
-            padding: 5px 10px;
-            border: 1px solid #666;
-            position: absolute;
-            top:50%;
-            left: 50%;
-            text-decoration: none;
-            color: #000;
-            font-size: 40px;
-            /* text-align: center; */
-            transform: translateX(-50%);
-        }
-
-/* benner共用↑ */
-
-
-
-
-        /* 手機版本 */
-        @media screen and (max-width:767px) {
-        /* 手機版本-選單 */
-            .main-nav{
-                /* display: none; */
-                position: absolute;
-                background-color: brown;
-                width: 100%;
-                left: -100%;
-                top: 100%;
-                opacity: 0;
-                transition: opacity 1s 0s,
-                            left    1s 1s;
-                z-index: 10;
-            }
-
-            .hb{
-                width: 40px;
-                height: 40px;
-                background-color: #666;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                align-items: center;
-                position: relative;
-            }
-            .hb span{
-                width: 32px;
-                height: 2px;
-                background-color: #000;
-                position: absolute;
-                left: 0;
-                right: 0;
-                margin: auto;
-                opacity: 1;
-                transform: rotate(0deg);
-
-            }
-            .hb span:nth-child(1){
-                top: 7px;
-                transition: transform 1s 0s ,top 1s 1s;
-            }
-            .hb span:nth-child(2){
-                top: 0;
-                bottom: 0;
-                transition: opacity 1s 2s;
-                
-            }
-            .hb span:nth-child(3){
-                top: 31px;
-                transition: transform 1s 0s ,top 1s 1s;
-            }
-
-            #menu-switch:checked + .header .main-nav{
-                /* display: block; */
-                left: 0;
-                opacity: 1;
-                transition: opacity 1s;
-            }
-            #menu-switch:checked + .header .hb span:nth-child(2){
-                /* display: none; */
-                opacity: 0;
-                transition: opacity 1s ;
-
-
-                    
-            }
-            #menu-switch:checked + .header .hb span:nth-child(1){
-                top: 19px;
-                transform: rotate(45deg);
-                transition: top 1s 0s ,transform 1s 1s;
-                
-            }
-
-            #menu-switch:checked + .header .hb span:nth-child(3){
-                top: 19px;
-                transform: rotate(-45deg);
-                transition: top 1s 0s ,transform 1s 1s;
-            }
-
-        }
-        /* 平板版本 */
-        @media screen and (min-width:768px) {
-            .hb{display: none;}
-            .main-nav{
-                display: flex;
-                /* position: relative; */
-                width: fit-content;
-                /* background-color: transparent; */
-            }
-        }
-        
-
-
-    </style>
+    <style>    </style>
 </head>
 <body>
     <input type="checkbox" name="" id="menu-switch">
     <div class="header">
         <!-- logo -->
-        <div class="logo">
-            <img src="./pic/logo.png">
-        </div>
+        <h1 class="logo">
+            <a href="./index.html">
+                <img src="./pic/logo.png" alt="Wode.M">
+            </a>
+        </h1>
 
         <!-- 漢堡 -->
         <label for="menu-switch" class="hb">  
@@ -200,28 +40,27 @@
             <span></span>
             <span></span>
         </label>
-
-        
+      
         <!-- 選單 -->
         <nav class="main-nav">
             <a href="./product.html">選購泳衣</a>
-            <a href="#">Wode.M地圖探索</a>
+            <a href="#">地圖探索</a>
             <a href="#">挑選指南</a>
             <a href="#">關於我們</a>
             <a href="#">
-                <img src="./pic/icon/Vector.png" alt="">
+                <img src="./pic/icon/Vector.png" alt="購物車">
             </a>
             <a href="#">
-                <img src="./pic/icon/person.png" alt="">
+                <img src="./pic/icon/person.png" alt="會員">
             </a>
         </nav>
     </div>
 
 
 
-    <div class="benner">
+    <div class="home-benner">
         <div class="pic">
-            <img src="./pic/benner/banner.png" alt="benner">
+            <img src="./pic/benner/banner.png" alt="home-benner">
         </div>
         <div class="icon-newshop">
             <a href="#">新品上市</a>
@@ -253,14 +92,14 @@
     </div>
 
     <div class="home-guide-diving">
-        <h2>挑選指南-活動穿搭
-            <span>潛水穿搭</span>
+        <h2><span>挑選指南-活動穿搭</span>
+            潛水穿搭
         </h2>
         <div class="home-diving-content">
             <div class="diving-main">
                 <figure class="diving-main-card">
                     <img src="./pic/diving-outfit1.jpg" alt="diving-outfit">
-                    <figcaption>Orca 歐卡 / 挖腰連身泳裝</figcaption>
+                    <figcaption>&#9650 Orca 歐卡 / 挖腰連身泳裝</figcaption>
                 </figure>
                 <div class="text">
                     <h3>Orca 歐卡 / 挖腰連身泳裝</h3>
@@ -277,19 +116,19 @@
                 <div class="diving-outfit-card">
                     <figure>
                         <img src="./pic/diving-outfit2.png" alt="">
-                        <figcaption>Orca 歐卡 / 挖腰連身泳裝</figcaption>
+                        <figcaption>&#9650 Orca 歐卡 / 挖腰連身泳裝</figcaption>
                     </figure>
                 </div>
                 <div class="diving-outfit-card">
                     <figure>
                         <img src="./pic/diving-outfit3.jpg" alt="">
-                        <figcaption>Orca 歐卡 / 挖腰連身泳裝</figcaption>
+                        <figcaption>&#9650 Orca 歐卡 / 挖腰連身泳裝</figcaption>
                     </figure>
                 </div>
                 <div class="diving-outfit-card">
                     <figure>
                         <img src="./pic/diving-outfit4.jpg" alt="">
-                        <figcaption>Orca 歐卡 / 挖腰連身泳裝</figcaption>
+                        <figcaption>&#9650 Orca 歐卡 / 挖腰連身泳裝</figcaption>
                     </figure>
                 </div>
 
@@ -300,7 +139,9 @@
 
 
     <div class="home-onepeice">
-        <h2>選購泳衣 - <span>連身熱賣款</span></h2>
+        <h2><span>選購泳衣 - </span>
+            連身熱賣款
+        </h2>
         <div class="scroll">
             <p>Platax  法式馬甲透膚連身款</p>
         </div>
@@ -334,7 +175,8 @@
     </div>
 
     <div class="home-guide-XLrecommend">
-        <h2>挑選指南-<span>大胸女孩友善款</span></h2>
+        <h2><span>挑選指南- </span>
+            大胸女孩友善款</h2>
         <div class="parrot">
             <div class="img">
                 <img src="./pic/parrot_main.png" alt="parrot">
@@ -370,53 +212,53 @@
 
 <div>
 
-    <div class="footer">
-        <div class="footer-introduce">
-            Wode.M 台灣設計研發最適合亞洲女孩的水上運動服飾
-        </div>
-        <ul class="aboutfooter">
-            <li>關於Wode.M</li>
-            <li>退換貨服務</li>
-            <li>重要公告</li>
-            <li>會員中心</li>
-            <li>隱私權政策</li>
-        </ul>
+<div class="footer footer-essential">
+    <div class="footer-introduce">
+        Wode.M 台灣設計研發最適合亞洲女孩的水上運動服飾
+    </div>
+    <ul class="aboutfooter">
+        <li>關於Wode.M</li>
+        <li>退換貨服務</li>
+        <li>重要公告</li>
+        <li>會員中心</li>
+        <li>隱私權政策</li>
+    </ul>
 
-        <div class="footer-main">
-            <div class="service-group">
-                <div class="service">service</div>
-                <div>
-                    <p>service@gmail.com</p>
-                    <p>03-4251108</p>
-                    <p>320桃園市中壢區復興路46號9樓</p>
-                </div>
+    <div class="footer-main">
+        <div class="service-group">
+            <div class="service">service</div>
+            <div>
+                <p>service@gmail.com</p>
+                <p>03-4251108</p>
+                <p>320桃園市中壢區復興路46號9樓</p>
             </div>
-            <div class="footer-icon">
-                <div class="middle">
-                    <a class="btn" href="">
-                    <i class="fa fa-facebook-f"></i>
-                    </a>
-                    <a class="btn" href="">
-                    <i class="fa fa-twitter"></i>
-                    </a>
-                    <a class="btn" href="">
-                    <i class="fa fa-instagram"></i>
-                    </a>
-                    <a class="btn" href="">
-                    <i class="fa fa-google-plus"></i>
-                    </a>
-                </div>
+        </div>
+        <div class="footer-icon">
+            <div class="middle">
+                <a class="btn" href="">
+                <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="btn" href="">
+                <i class="fa fa-twitter"></i>
+                </a>
+                <a class="btn" href="">
+                <i class="fa fa-instagram"></i>
+                </a>
+                <a class="btn" href="">
+                <i class="fa fa-google-plus"></i>
+                </a>
             </div>
-
-
         </div>
-        <div class="statement">
-            <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。 </p>
-            <p>若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。 COPYRIGHT © 2022 PARTYME Co.,Ltd. All rights reserved.</p>
-            <p>參考資料https://www.timu-aqua.com/</p>
-        </div>
+
 
     </div>
+    <div class="statement">
+        <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。 </p>
+        <p>若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。 COPYRIGHT © 2022 PARTYME Co.,Ltd. All rights reserved.</p>
+        <p>參考資料https://www.timu-aqua.com/</p>
+    </div>
+
+</div>
 
 <!-- 輪播圖 -->
 

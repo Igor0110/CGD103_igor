@@ -1,0 +1,269 @@
+h2{
+  color: brown ;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+h2::after{
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 4px;
+  border-bottom: dashed 2px sandybrown;
+
+}
+
+/* home-benner共用↓ */
+.home-benner .pic img{
+  vertical-align: top;
+  width: 100%;
+}
+.home-benner{
+  margin-top: 73px ;
+  position: relative;
+  z-index: 0;
+}
+.home-benner a{
+  background-color: #E3CA95;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #666;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+  /* text-align: center; */
+  transform: translateX(-50%);
+}
+
+/* benner共用↑ */
+
+
+/* -----輪播圖---- */  
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 70%;
+      height: 70%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
+    .selling .more-commodity{
+      font-size: 24px;
+      color: #fff;
+      font-weight: 600;
+      background-color: 7B7B7B;
+    }
+
+/* -----輪播圖---↑- */ 
+
+/* 挑選指南-活動穿搭 --潛水穿搭 */
+
+    .home-guide-diving{
+      max-width: 1200px;
+      margin: auto;
+    }
+    figure img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .diving-main-card{
+      width: 1000px;
+    }
+    .diving-main{
+      display: flex;
+    }
+    .diving-main .text{
+      width: 600px;
+      text-align:justify;
+      margin: auto;
+      font-size: 23px;
+      padding: 5px 20px;
+      line-height: 1.4;
+      font-weight: 100;
+    }
+    .diving-main .text h3{
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .diving-main .text span{
+      color: chocolate;
+      text-align: center;
+      font-size: 28px;
+      font-weight:400;
+    }
+    
+    .diving-outfit-card-group{
+      display: flex;
+      gap: 20px;
+      padding: 20px 0px;
+      
+    } 
+    .diving-outfit-card img{
+      width: 400px;
+      height: 300px;
+      border-radius: 10px;
+    }
+    .home-diving-content figcaption{
+      color: #205399;
+      font-size: 19px;
+      width: fit-content;
+      padding: 5px 0px;
+    }
+
+/* --------------挑選指南-活動穿搭----潛水穿搭-----↑--- */
+
+/* ---------------------連身熱賣款↓----------------- */
+
+.home-onepeice{
+  min-width: 1200px;
+
+}
+
+.scroll{
+	height: 400px;
+  max-width: 1200px;
+  margin: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(./pic/scrollpic.jpg);
+	vertical-align: baseline;
+	background-position: center bottom;
+	background-size: 1200px 698px;
+	position: relative;
+  box-shadow: 10px 10px 40px rgb(56, 50, 50) inset;
+}
+.scroll p{
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	color: #fff;
+	font-size: 19px;
+	position: absolute;
+	transform: translateX(-50%);
+}
+
+
+.home-onepieice-img-group .main-img img{
+  width: 500px;
+  height: 700px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+.home-onepieice-img-group{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.home-onepeice .img-group{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  
+}
+.home-onepeice .img-group img {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  object-position:center center;
+  border-radius: 10px;
+}
+.home-onepieice-img-group figcaption{
+  color: #642424;
+  border-bottom: solid;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0px;
+  width: fit-content;
+}
+.img-group p{
+  font-size: 20px;
+  background-color: sandybrown;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+
+/* ---------------------連身熱賣款↑------------------- */
+
+/* ----------------挑選指南-大胸女孩友善款----- */
+.home-guide-XLrecommend{
+  min-width: 1200px;
+}
+.parrot{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.parrot img{
+  width: 600px;
+  height: 800px;
+}
+.parrot-content{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.parrot-content img{
+ height: 350px;
+ width: 250px;
+ text-align: center ;
+
+}
+.parrot-ootd{
+  width: 200px;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+}
+
+
+

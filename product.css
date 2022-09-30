@@ -1,0 +1,25 @@
+
+.product-benner{
+  max-width: 100%;
+  /* background-color: antiquewhite; */
+  margin-top: 73px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-position: center center;
+}
+.benner-text{
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+/* .product-benner .img{
+
+} */
+.product-benner .img img{
+  width: 1000px;
+  height: 300px;
+  object-fit: none;
+  vertical-align: top;
+  object-position:center right;
+}
