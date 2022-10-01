@@ -1,13 +1,98 @@
 .about-banner-img{
     width: 100%;
+    height: 1000px;
 }
 .about-banner-img img{
     width: 100%;
+    height: 100%;
     vertical-align: middle;
+    object-fit: cover;
+    object-position: left bottom;
 
 }
 
-.about-text{
-    max-width: 800px;
+.aboutw h2{
+    margin: 40px 0px 40px;
+}
+.aboutw p{
+    line-height:1.6 ;
+    font-size: 23px;
+    text-align: center;
+}
+
+.about-original{
+    width: 1200px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    grid-template-rows:100px 100px 100px 100px 100px 100px  ; 
     margin: auto;
+   
+}
+.about-text{
+    width: 400px;
+    margin: auto;
+}
+
+.about-original .img{
+    grid-row: 2 / 7;
+    grid-column: 1 / 2;
+}
+.about-original .about-text{
+    
+    grid-column: 4 / 6;
+    grid-row: 3 / 6;
+    opacity: 0.5;
+    line-height: 1.6;
+}
+.about-original .about-text h3{
+    margin: 10px 0px;
+}
+.about-original .about-text p{
+    margin: 10px 0px;
+}
+.about-original .backgroud{
+    background-color: rgb(232, 213, 213);
+    border-radius: 50% 20% / 50% 50%;
+    grid-column: 2 / 7;
+    grid-row: 3 / 6;
+    z-index: -1;  
+}
+
+
+.about-tailor{
+    width: 1200px;
+    height: 700px;
+    display: grid;
+    
+    grid-template-columns: 200px 200px 200px 200px 200px 200px ;
+    grid-template-rows:100px 100px 100px 100px 100px 100px  ; 
+    margin: auto;
+   
+}
+
+.about-tailor .img{
+    justify-content: end;
+    grid-row: 2 / 7;
+    grid-column: 7 / 5;
+}
+.about-tailor .about-text{
+    
+    grid-column: 2 / 4;
+    grid-row: 3 / 6;
+    opacity: 0.5;
+    line-height: 1.6;
+}
+.about-tailor .about-text h3{
+    margin: 10px 0px;
+}
+.about-tailor .about-text p{
+    margin: 10px 0px;
+}
+.about-tailor .backgroud{
+    background-color: rgb(232, 213, 213);
+    border-radius: 50% 20% / 50% 50%;
+    grid-column: 1 / 6;
+    grid-row: 3 / 6;
+    z-index: -1;  
 }

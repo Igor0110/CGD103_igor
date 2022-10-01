@@ -5,17 +5,8 @@ h2{
   text-align: center;
 }
 
-h2::after{
-  content: "";
-  display: block;
-  width: 1200px;
-  height: 4px;
-  border-bottom: dashed 2px sandybrown;
 
-}
-*{
-  outline: 1px red solid;
-}
+
 /* home-benner共用↓ */
 .home-benner .pic img{
   vertical-align: top;
