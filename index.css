@@ -11,6 +11,7 @@ h2{
 .home-benner .pic img{
   vertical-align: top;
   width: 100%;
+  border-radius: 10px;
 }
 .home-benner{
   position: relative;
@@ -50,12 +51,13 @@ position: relative;
       padding: 0;
     }
 
+
+
     .swiper {
       width: 70%;
       height: 70%;
+      margin-bottom: 35px;
     }
-
-
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -84,23 +86,33 @@ position: relative;
 
 
     .selling .more-commodity{
+      margin: 20px 0px;
       font-size: 24px;
-      color: #fff;
+      color: rgb(100, 97, 97);
       font-weight: 600;
       background-color: 7B7B7B;
+      text-align: end;
+    }
+    .selling .more-commodity a{
+      text-decoration: none;
     }
 
 /* -----輪播圖---↑- */ 
 
 /* 挑選指南-活動穿搭 --潛水穿搭 */
 
-    .home-onepeice h2{
-      margin-bottom: 30px;
-    }
+
 
     .home-guide-diving{
       max-width: 1200px;
       margin: auto;
+      background: linear-gradient(241.96deg, #6AA3CC 27.41%, rgba(106, 163, 204, 0) 62.45%);
+      padding-top: 10px;
+      padding-bottom: 30px;
+      border-radius: 50% 20% / 10% 40%;
+    }
+    .home-guide-diving h2{
+      margin: 30px 0px;
     }
 
     figure img{
@@ -108,7 +120,7 @@ position: relative;
       border-radius: 10px;
     }
     .diving-main-card{
-      width: 1000px;
+      width: 900px;
     }
     .diving-main{
       display: flex;
@@ -117,10 +129,10 @@ position: relative;
       width: 600px;
       text-align:justify;
       margin: auto;
-      font-size: 23px;
+      font-size: 18px;
       padding: 5px 20px;
       line-height: 1.4;
-      font-weight: 100;
+      
     }
     .diving-main .text h3{
       text-align: center;
@@ -130,7 +142,7 @@ position: relative;
       color: chocolate;
       text-align: center;
       font-size: 28px;
-      font-weight:400;
+      font-weight:500;
     }
     
     .diving-outfit-card-group{
@@ -156,40 +168,51 @@ position: relative;
 
 /* ---------------------連身熱賣款↓----------------- */
 
+.home-onepeice h2{
+  margin: 20px  0px;
+  padding: 40px ;
+}
 .home-onepeice{
   min-width: 1200px;
-  
+
 }
 
 .scroll{
-	height: 400px;
-  max-width: 1200px;
+	height: 550px;
+  width: 1200px;
   margin: auto;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-image: url(./pic/scrollpic.jpg);
+	background-attachment: scroll;
+	background-image: url(./pic/scroll4.jpg);
 	vertical-align: baseline;
-	background-position: center bottom;
-	background-size: 1200px 698px;
+	background-position: center center;
+	background-size: 100% ;
 	position: relative;
   box-shadow: 10px 10px 40px rgb(56, 50, 50) inset;
+  border-radius: 10px;
+
 }
 .scroll p{
 	text-align: center;
-	top: 40%;
-	left: 50%;
+	top: 4%;
+	left: 10%;
 	color: #fff;
 	font-size: 19px;
 	position: absolute;
-	transform: translateX(-50%);
+	transform: translateX(-20%);
 }
 
 
+.home-onepieice-img-group .main-img{
+  width: 350px;
+  height: 500px;
+}
 .home-onepieice-img-group .main-img img{
-  width: 500px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
   background-color: antiquewhite;
   border-radius: 10px;
+ 
 }
 .home-onepieice-img-group{
   display: flex;
@@ -213,11 +236,11 @@ position: relative;
 }
 .home-onepieice-img-group figcaption{
   color: #642424;
-  border-bottom: solid;
   font-size: 25px;
   font-weight: 600;
   margin: 20px 0px;
   width: fit-content;
+  
 }
 .img-group p{
   font-size: 20px;
@@ -234,8 +257,15 @@ position: relative;
 
 /* ----------------挑選指南-大胸女孩友善款----- */
 .home-guide-XLrecommend{
-  min-width: 1200px;
+  width: 1200px;
   margin: 50px 0px;
+  background: linear-gradient(241.96deg, rgba(217, 158, 86, 0.44) 27.41%, rgba(198, 159, 106, 0.07) 62.45%);
+  margin: auto;
+  border-radius: 50% 20% / 10% 40%; 
+}
+
+.home-guide-XLrecommend h2{
+  padding: 20px 0px;
 }
 .parrot{
   display: flex;
@@ -245,7 +275,9 @@ position: relative;
 .parrot img{
   width: 600px;
   height: 800px;
+  border-radius: 10px;
 }
+
 .parrot-content{
   width: 500px;
   display: flex;
