@@ -1,7 +1,7 @@
 h2{
   color: brown ;
-  margin-bottom: 5px;
-  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-top: 90px;
   text-align: center;
 }
 
@@ -55,6 +55,7 @@ position: relative;
       height: 70%;
     }
 
+
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -93,10 +94,15 @@ position: relative;
 
 /* 挑選指南-活動穿搭 --潛水穿搭 */
 
+    .home-onepeice h2{
+      margin-bottom: 30px;
+    }
+
     .home-guide-diving{
       max-width: 1200px;
       margin: auto;
     }
+
     figure img{
       width: 100%;
       border-radius: 10px;
