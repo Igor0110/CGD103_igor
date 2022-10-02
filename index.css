@@ -152,7 +152,7 @@ position: relative;
 
 .home-onepeice{
   min-width: 1200px;
-
+  
 }
 
 .scroll{
@@ -189,6 +189,7 @@ position: relative;
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin: 60px 0px;
 }
 .home-onepeice .img-group{
   display: flex;
@@ -228,6 +229,7 @@ position: relative;
 /* ----------------挑選指南-大胸女孩友善款----- */
 .home-guide-XLrecommend{
   min-width: 1200px;
+  margin: 50px 0px;
 }
 .parrot{
   display: flex;
