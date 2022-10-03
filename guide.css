@@ -166,6 +166,10 @@
 .share-bady{
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 100px;
+}
+.share-bady h3{
+  margin-bottom: 20px;
 }
 .share-bady .img img{
   vertical-align: middle;
@@ -175,45 +179,116 @@
 .share-content{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .share-content .img{
   grid-row:1 /4 ;
   grid-column: 1 / 4;
-  background-color: #205399;
+  padding: 10px 10px 0px 10px;
+  border-radius: 10px;
+}
+
+
+.share-content .sharecards h4{
+  padding: 0px 0px 5px;
 }
 .share-content .sharecards{
   grid-row: 1 /4 ;
-  grid-column: 4 / 13;
-  background-color: #8C2121;
+  grid-column: 4 / 14;
+
 }
 .sharecards{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
   height: 100%;
+  gap: 25px;
+
+}
+
+/* --------------------------------------- */
+.sharecards .card:nth-child(1){
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  line-height: 1.4;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.sharecards .card:nth-child(2){
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  line-height: 1.4;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.sharecards .card:nth-child(3){
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  line-height: 1.4;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.sharecards .card:nth-child(4){
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  line-height: 1.4;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.sharecards .card:nth-child(5){
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  line-height: 1.4;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 
 .sharecards .card div .size{
   font-size: 14px;
-  background-color: #e1a766;
   text-align: center;
+  color: #8C2121;
+  font-weight: 400;
+  position: relative;
+  border-bottom: #7b7b7b 1px solid ;
 }
-.sharecards .card{
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  line-height: 1.4;
-  font-size: 12px;
 
 
-}
+
 .sharecards .text {
+  flex-grow: 1;
   width: 100%;
-
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-content: space-around;
-  outline: rebeccapurple 1px solid;
+  line-height: 1.5;
 }
+.sharecards .text > div{
+  text-align: center;
+}
+
+.sharecards .text .recommend{
+  flex-grow: 1;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sharecards .text .recommend p{
+  color: #8C2121;
+
+}
+.sharecards .text .recommend p:nth-child(2){
+  width: fit-content;
+  padding: 0px 5px;
+  background-color: #e1a766;
+  border-radius: 5px;
+  align-self: center;
+}
+
+/* -----------------card---- */
