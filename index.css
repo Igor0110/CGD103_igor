@@ -11,7 +11,7 @@ h2{
 .home-benner .pic img{
   vertical-align: top;
   width: 100%;
-  border-radius: 10px;
+  
 }
 .home-benner{
   position: relative;
@@ -331,6 +331,7 @@ position: relative;
   display: flex;
   gap: 20px;
 }
+
 
 
 
