@@ -127,8 +127,12 @@ position: relative;
       margin: 0px 15p;
     }
     .diving-main .text{
-      width: 600px;
-      text-align:justify;
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* text-align:justify; */
       margin: auto;
       font-size: 18px;
       padding: 5px 20px;
@@ -144,6 +148,18 @@ position: relative;
       text-align: center;
       font-size: 28px;
       font-weight:500;
+      padding-bottom: 20px;
+    }
+    .home-guide-diving .buynow{
+      background-color:sandybrown ;
+      font-size: 20px;
+      width: fit-content;
+      text-align: right;
+      margin-left: 60%;
+      padding: 10px 30px 10px 30px;
+      color: #f1f1f1;
+      border-radius: 10px;
+
     }
     
     .diving-outfit-card-group{
