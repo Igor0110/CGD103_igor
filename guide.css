@@ -69,6 +69,7 @@
 .recommend-main .wrap{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
     margin: auto;
     
 }
@@ -163,6 +164,13 @@
 
 
 /* -------------穿搭體驗分享----- */
+
+
+.share-bady-background{
+  padding: 100px 0px;
+  background-color: #e1a766;
+  background: linear-gradient(241.96deg, rgba(217, 158, 86, 0.44) 27.41%, rgba(198, 159, 106, 0.07) 62.45%);
+}
 .share-bady{
   max-width: 1200px;
   margin: auto;
@@ -292,3 +300,21 @@
 }
 
 /* -----------------card---- */
+.share-bady-background .more{
+  display: flex;
+  justify-content: flex-end;
+}
+.share-bady-background .more a{
+  text-decoration: none;
+}
+.share-bady-background .more-commodity{
+  margin: 20px 15px;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 400;
+  background-color: #4E4E4E;
+  color: #f1f1f1;
+  padding: 5px 10px 7px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
