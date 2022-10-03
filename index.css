@@ -124,6 +124,7 @@ position: relative;
     }
     .diving-main{
       display: flex;
+      margin: 0px 15p;
     }
     .diving-main .text{
       width: 600px;
@@ -149,6 +150,7 @@ position: relative;
       display: flex;
       gap: 20px;
       padding: 20px 0px;
+      margin: 0px 15px;
       justify-content: space-between;
       
     } 
@@ -258,10 +260,11 @@ position: relative;
 /* ----------------挑選指南-大胸女孩友善款----- */
 .home-guide-XLrecommend{
   width: 1200px;
-  margin: 50px 0px;
+  margin: 50px 0px ;
   background: linear-gradient(241.96deg, rgba(217, 158, 86, 0.44) 27.41%, rgba(198, 159, 106, 0.07) 62.45%);
   margin: auto;
   border-radius: 50% 20% / 10% 40%;
+  padding-bottom: 70px;
 }
 
 .home-guide-XLrecommend h2{

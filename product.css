@@ -12,7 +12,7 @@
 .benner-text{
   text-align: center;
   padding: auto;
-  background-color: #8C2121;
+  background-color: #9e3838;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,14 +22,13 @@
 }
 .product-benner .img p{
   position: absolute;
-  left: 10%;
+  left: 13%;
   top: 50%;
-  color: #1f1f1f;
+  color: #d9d5d5;
   font-size: 26px;
+  text-shadow: #1f1f1f 1px 0 10px;
 }
-.product-benner .img p:hover{
-  font-size: 28px;
-}
+
 .product-benner .img img{
   height: 300px;
   object-fit: none;
@@ -42,19 +41,14 @@
   padding-top: 3px;
   font-size: 40px;
   line-height: 1.5;
-  color: rgb(215, 225, 16);
+  color: rgb(225, 93, 16);
   font-weight: 600;
-  text-shadow: 3px 3px 4px rgb(114, 112, 112);
-}
-.benner-text p:hover{
-  font-size: 44px;
-  font-weight: 800;
-  color:#9C9C9C ;
   
 }
+
 .benner-text span{
-  font-size: 23px;
-  color: #9C9C9C;;
+  font-size: 20px;
+  color: #a9a5a5;;
 }
 /* product--benner     ↑ */
 
@@ -179,6 +173,10 @@ h2{
   width: fit-content;
   border: #1f1f1f solid 2px;
   padding: 5px 20px;
+}
+
+.loadmore:hover{
+  cursor:pointer;
 }
 /* .loadmore::after{
   content: "";
