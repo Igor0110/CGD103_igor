@@ -66,34 +66,31 @@
 }
 
 /* 挑選指南-活動穿搭 --潛水穿搭 */
-.recommend-main .wrap{
+.wrap{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1200px;
     margin: auto;
     
 }
-.recommend-main .wrap a{
+.wrap a{
     text-decoration: none;
 }
-.recommend-main .wrap h4{
+.wrap h4{
     background-color: #8C2121;
     padding: 20px 30px;
     color: #f1f1f1;
-    font-size: ;
     margin: 20px;
     border-radius: 10px;
     font-weight: 400;
     
     
 }
-.recommend-main .wrap h4:hover{
+.wrap h4:hover{
     background-color: #e1a766;
     color: #8C2121;
 }
-.recommend-main .wrap h4:hover{
-    cursor:pointer;
-}
+
 
 .home-guide-diving{
     max-width: 1200px;
@@ -318,3 +315,39 @@
   border-radius: 10px;
   align-self: flex-end;
 }
+
+
+/* -----穿搭指南------------------------------- */
+/* -----身型挑選--------------------------- */
+
+/* ------------CSS連結---index-home-guide-XLrecommend--- 蘋果女孩修飾款--- */
+.select-main .slogan-wrap{
+  max-width: 1200px;
+  margin: auto;
+  
+}
+.select-main .slogan-wrap .slogan p{
+  font-size: 24px;
+  font-weight: 600;
+  color: #FF5D10;
+  text-align: center;
+  line-height: 1.8;
+  margin: 20px 0px;
+}
+.select-main .slogan-wrap .slogan .img{
+  width: 80%;
+  margin: auto;
+}
+.select-main .img img{
+  width: 100%;
+  height: 100%;
+}
+.select-main .wrap .slogan{
+  font-size: 30px;
+  color: #8C2121;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* ---------------index-home-guide-XLrecommend--- 蘋果女孩修飾款--- */

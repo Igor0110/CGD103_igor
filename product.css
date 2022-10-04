@@ -160,6 +160,7 @@ h2{
   font-size: 23px;
   list-style: 1.3;
 }
+
 .product-card .color{
   color: #888888;
   font-size: 16px;
@@ -167,6 +168,9 @@ h2{
 .product-card p{
   padding: 5px;
   list-style: 1.2;
+}
+.wrapper-grid-main-items .product-card .price{
+  color: #F4A45E;
 }
 
 .loadmore{

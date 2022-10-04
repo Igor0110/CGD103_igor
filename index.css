@@ -75,8 +75,20 @@ position: relative;
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+      position: relative;
     }
-
+    .swiper-slide div{
+      position: absolute;
+      width: 100%;
+      height: 30px;
+      background-color: #f1f1f1;
+      color: #642424;
+      font-size: 20px;
+      bottom: 0;
+      text-align: center;
+      opacity: 0.8;
+      font-weight: 400;
+    }
     .swiper-slide img {
       display: block;
       width: 100%;
@@ -104,7 +116,7 @@ position: relative;
 
 
     .home-guide-diving-b{
-      background: linear-gradient(241.96deg, #6AA3CC 27.41%, rgba(106, 163, 204, 0) 62.45%);
+      background: linear-gradient(241.96deg, #eec6ba 27.41%, rgba(106, 163, 204, 0) 62.45%);
     }
     .home-guide-diving{
       max-width: 1200px;
