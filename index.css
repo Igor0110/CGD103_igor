@@ -150,7 +150,7 @@ position: relative;
     }
     .diving-main{
       display: flex;
-      margin: 0px 15p;
+      margin: 0px 15px;
     }
     .home-diving-content figcaption{
       position: absolute;
@@ -163,7 +163,7 @@ position: relative;
       opacity: 0.8;
       text-align: center;
       font-weight: 400;
-      border-radius: 0px 10px;
+      border-radius: 0px 0px 10px 10px;
 
     }
 
@@ -350,6 +350,7 @@ position: relative;
   text-align: center;
   opacity: 0.8;
   font-weight: 400;
+  border-radius: 0px 0px 10px 10px;
 }
 .parrot .img img{
   width: 100%;
