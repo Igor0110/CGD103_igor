@@ -41,6 +41,12 @@ h2{
 .map .maptitle a h3{
     color: #f1f1f1;
 }
+.map .maptitle a:hover{
+    background-color: #F4A45E;
+}
+.map .maptitle a h3:hover{
+    color: #8C2121;
+}
 .map .map-body h4{
     padding-top: 10px;
 }
@@ -59,8 +65,21 @@ h2{
 .map .mapgroup img{
     width: 100%;
     height: 100%;
-
-
+}
+.map .mapgroup .img{
+    position: relative;
+}
+.map .mapgroup .img div{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-color: #f1f1f1;
+    color: #642424;
+    font-size: 20px;
+    bottom: 0;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: 400;
 }
 
 .mapsection{
@@ -81,10 +100,11 @@ h2{
     vertical-align: middle;
 }
 .mapsection .maptext{
-    margin: 100px 200px 100px 60px ;
+    margin: 100px 200px 100px 200px ;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 18px;
 
     
 }

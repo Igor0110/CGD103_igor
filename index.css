@@ -138,7 +138,9 @@ position: relative;
     .home-guide-diving h2{
       margin: 30px 0px;
     }
-
+    .home-diving-content figure{
+      position: relative;
+    }
     figure img{
       width: 100%;
       border-radius: 10px;
@@ -151,10 +153,18 @@ position: relative;
       margin: 0px 15p;
     }
     .home-diving-content figcaption{
-      color: #205399;
-      font-size: 19px;
-      width: fit-content;
-      padding: 5px 0px;
+      position: absolute;
+      background-color: #f1f1f1;
+      color: #642424;
+      font-size: 20px;
+      bottom: 0;
+      width: 100%;
+      height: 30px;
+      opacity: 0.8;
+      text-align: center;
+      font-weight: 400;
+      border-radius: 0px 10px;
+
     }
 
     .diving-main .text{
@@ -356,14 +366,20 @@ position: relative;
   line-height: 1.5;
   
 }
-.parrot-content ul h3{
-  margin: 5px 0px 5px;
-  padding: 10px 0px 10px;
+
+.parrot-content .list{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
 }
-.parrot-content li{
+
+
+.parrot-content .list p{
   margin-left: 30px;
   font-size: 18px;
   line-height: 1.7;
+  text-align: left;
   
 }
 .parrot-content .img{
@@ -382,11 +398,20 @@ position: relative;
 
 
 }
-.parrot-introduction div{
+.parrot-introduction{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 30px;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 28px ;
+}
+.parrot-introduction .list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .parrot-content .parrot-introduction .size{
   line-height: 1.4;
@@ -396,13 +421,17 @@ position: relative;
   background-color:sandybrown ;
   font-size: 20px;
   width: fit-content;
-  text-align: right;
   padding: 10px 30px 10px 30px;
   color: #f1f1f1;
   border-radius: 10px;
 }
 .parrot-content .parrot-introduction div a{
   text-decoration: none;
+
+}
+.parrot-content .parrot-introduction .buynowicon{
+  display: flex;
+  justify-content: end;
 }
 .parrot-ootd {
   display: flex;
