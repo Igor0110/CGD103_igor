@@ -311,7 +311,7 @@
 .share-bady-background .more-commodity{
   margin: 20px 15px;
   width: fit-content;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   background-color: #4E4E4E;
   color: #f1f1f1;
@@ -341,6 +341,7 @@
 .select-main .slogan-wrap .slogan .img{
   width: 80%;
   margin: auto;
+  padding-bottom: 20px;
 }
 .select-main .img img{
   width: 100%;
